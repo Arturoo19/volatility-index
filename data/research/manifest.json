@@ -1,0 +1,122 @@
+[
+  {
+    "name": ".BVOL7D-instrument",
+    "url": "https://www.bitmex.com/api/v1/instrument?symbol=.BVOL7D",
+    "fetchedAtUtc": "2026-10-07T11:08:24.6344800Z",
+    "status": 200,
+    "file": "BVOL7D-instrument.json",
+    "count": 1,
+    "firstTimestamp": "2026-10-07T11:05:00Z",
+    "lastTimestamp": "2026-10-07T11:05:00Z"
+  },
+  {
+    "name": ".BVOL7D-latest-trades",
+    "url": "https://www.bitmex.com/api/v1/trade?symbol=.BVOL7D&count=12&reverse=true",
+    "fetchedAtUtc": "2026-10-07T11:08:26.4154976Z",
+    "status": 200,
+    "file": "BVOL7D-latest-trades.json",
+    "count": 12,
+    "firstTimestamp": "2026-10-07T11:05:00Z",
+    "lastTimestamp": "2026-10-07T10:10:00Z"
+  },
+  {
+    "name": ".BVOL7D-earliest-trades",
+    "url": "https://www.bitmex.com/api/v1/trade?symbol=.BVOL7D&count=3&reverse=false",
+    "fetchedAtUtc": "2026-10-07T11:08:27.9150659Z",
+    "status": 200,
+    "file": "BVOL7D-earliest-trades.json",
+    "count": 3,
+    "firstTimestamp": "2014-11-13T20:55:00Z",
+    "lastTimestamp": "2014-11-13T21:05:00Z"
+  },
+  {
+    "name": ".BVOL7D-minute-buckets",
+    "url": "https://www.bitmex.com/api/v1/trade/bucketed?symbol=.BVOL7D&binSize=1m&count=12&reverse=true&partial=false",
+    "fetchedAtUtc": "2026-10-07T11:08:30.0756913Z",
+    "status": 200,
+    "file": "BVOL7D-minute-buckets.json",
+    "count": 12,
+    "firstTimestamp": "2026-10-07T11:08:00Z",
+    "lastTimestamp": "2026-10-07T10:57:00Z"
+  },
+  {
+    "name": ".BVOL24H-instrument",
+    "url": "https://www.bitmex.com/api/v1/instrument?symbol=.BVOL24H",
+    "fetchedAtUtc": "2026-10-07T11:08:31.6886588Z",
+    "status": 200,
+    "file": "BVOL24H-instrument.json",
+    "count": 1,
+    "firstTimestamp": "2026-10-07T11:05:00Z",
+    "lastTimestamp": "2026-10-07T11:05:00Z"
+  },
+  {
+    "name": ".BVOL24H-latest-trades",
+    "url": "https://www.bitmex.com/api/v1/trade?symbol=.BVOL24H&count=12&reverse=true",
+    "fetchedAtUtc": "2026-10-07T11:08:33.2188687Z",
+    "status": 200,
+    "file": "BVOL24H-latest-trades.json",
+    "count": 12,
+    "firstTimestamp": "2026-10-07T11:05:00Z",
+    "lastTimestamp": "2026-10-07T10:10:00Z"
+  },
+  {
+    "name": ".BVOL24H-earliest-trades",
+    "url": "https://www.bitmex.com/api/v1/trade?symbol=.BVOL24H&count=3&reverse=false",
+    "fetchedAtUtc": "2026-10-07T11:08:34.7034592Z",
+    "status": 200,
+    "file": "BVOL24H-earliest-trades.json",
+    "count": 3,
+    "firstTimestamp": "2014-11-07T20:55:00Z",
+    "lastTimestamp": "2014-11-07T21:05:00Z"
+  },
+  {
+    "name": ".BVOL24H-minute-buckets",
+    "url": "https://www.bitmex.com/api/v1/trade/bucketed?symbol=.BVOL24H&binSize=1m&count=12&reverse=true&partial=false",
+    "fetchedAtUtc": "2026-10-07T11:08:36.2203922Z",
+    "status": 200,
+    "file": "BVOL24H-minute-buckets.json",
+    "count": 12,
+    "firstTimestamp": "2026-10-07T11:08:00Z",
+    "lastTimestamp": "2026-10-07T10:57:00Z"
+  },
+  {
+    "name": ".BXBT-instrument",
+    "url": "https://www.bitmex.com/api/v1/instrument?symbol=.BXBT",
+    "fetchedAtUtc": "2026-10-07T11:08:37.6997098Z",
+    "status": 200,
+    "file": "BXBT-instrument.json",
+    "count": 1,
+    "firstTimestamp": "2026-10-07T11:08:35Z",
+    "lastTimestamp": "2026-10-07T11:08:35Z"
+  },
+  {
+    "name": ".BXBT-latest-trades",
+    "url": "https://www.bitmex.com/api/v1/trade?symbol=.BXBT&count=12&reverse=true",
+    "fetchedAtUtc": "2026-10-07T11:08:39.4052830Z",
+    "status": 200,
+    "file": "BXBT-latest-trades.json",
+    "count": 12,
+    "firstTimestamp": "2026-10-07T11:08:00Z",
+    "lastTimestamp": "2026-10-07T10:57:00Z"
+  },
+  {
+    "name": ".BXBT-earliest-trades",
+    "url": "https://www.bitmex.com/api/v1/trade?symbol=.BXBT&count=3&reverse=false",
+    "fetchedAtUtc": "2026-10-07T11:08:40.8883542Z",
+    "status": 200,
+    "file": "BXBT-earliest-trades.json",
+    "count": 3,
+    "firstTimestamp": "2017-03-14T13:49:00Z",
+    "lastTimestamp": "2017-03-14T13:51:00Z"
+  },
+  {
+    "name": ".BXBT-minute-buckets",
+    "url": "https://www.bitmex.com/api/v1/trade/bucketed?symbol=.BXBT&binSize=1m&count=12&reverse=true&partial=false",
+    "fetchedAtUtc": "2026-10-07T11:08:42.4898344Z",
+    "status": 200,
+    "file": "BXBT-minute-buckets.json",
+    "count": 12,
+    "firstTimestamp": "2026-10-07T11:08:00Z",
+    "lastTimestamp": "2026-10-07T10:57:00Z"
+  }
+]

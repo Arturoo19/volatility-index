@@ -1,0 +1,30 @@
+__pycache__/
+*.pyc
+node_modules/
+site/bxbt-live.json
+site/bxbt-live.json.tmp
+site/bitstamp-live.json
+site/bitstamp-live.json.tmp
+
+# Credentials and machine-specific settings
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+.ssh/
+.aws/
+.codex/
+.agents/
+.openai/
+.vscode/
+.idea/
+*.log
+.DS_Store
+Thumbs.db
+
+# Rebuilt with npm run build; keep dist source and initial market snapshot!
+site/dist/vendor/
+site/dist/data/market.json.tmp

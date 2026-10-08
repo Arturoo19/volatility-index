@@ -1,0 +1,4731 @@
+{
+  "url": "https://www.bitmex.com/api/v1/trade?symbol=.BXBT&count=1000&reverse=false&startTime=2020-03-12T15%3A18%3A00.001Z&endTime=2020-03-13T00%3A01%3A00.000Z",
+  "fetchedAtUtc": "2026-10-07T11:37:19.293Z",
+  "headers": {
+    "Content-Type": "application/json;charset=utf-8",
+    "Content-Length": "73436",
+    "Connection": "close",
+    "server": "istio-envoy",
+    "date": "Wed, 07 Oct 2026 11:37:18 GMT",
+    "vary": "Origin,Access-Control-Request-Method,Access-Control-Request-Headers",
+    "x-amzn-trace-id": "",
+    "x-envoy-upstream-service-time": "10",
+    "x-request-id": "ebbe8cca-6b47-4a3c-9712-e0320286045e",
+    "x-ratelimit-limit": "180",
+    "x-ratelimit-remaining": "179",
+    "x-ratelimit-reset": "1791373038",
+    "X-Cache": "Miss from cloudfront",
+    "Via": "1.1 c6568814f93ee83dbd0b3f6f9e13a750.cloudfront.net (CloudFront)",
+    "X-Amz-Cf-Pop": "MAD53-P5",
+    "X-Amz-Cf-Id": "KHvGXKWbwVSapuZqvw7gh1XjM8UMuikbcvGIUNjoSqgFnK-xZAoA6w=="
+  },
+  "rows": [
+    {
+      "timestamp": "2020-03-12T15:19:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6084.45,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T15:20:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6079.69,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T15:21:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6106.5,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T15:22:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6106.86,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T15:23:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6107.06,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T15:24:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6089.72,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T15:25:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6109.71,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T15:26:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6102.24,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T15:27:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6071.02,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T15:28:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6084.91,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T15:29:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6073.45,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T15:30:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6066.18,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T15:31:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6066.73,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T15:32:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6072.39,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T15:33:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6069.02,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T15:34:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6080.64,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T15:35:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6073.98,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T15:36:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6079.25,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T15:37:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6065.47,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T15:38:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6072.6,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T15:39:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6092.9,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T15:40:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6095.86,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T15:41:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6085.47,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T15:42:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6098.26,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T15:43:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6110.69,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T15:44:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6099.28,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T15:45:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6149.35,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T15:46:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6129.84,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T15:47:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6124.89,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T15:48:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6140.8,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T15:49:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6137.88,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T15:50:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6128.4,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T15:51:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6116.31,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T15:52:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6110.5,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T15:53:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6105.24,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T15:54:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6101.54,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T15:55:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6115.13,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T15:56:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6099.74,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T15:57:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6109.56,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T15:58:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6119.68,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T15:59:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6119.49,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T16:00:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6130.62,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T16:01:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6117.38,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T16:02:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6136.62,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T16:03:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6168.09,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T16:04:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6150.1,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T16:05:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6120.65,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T16:06:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6084.07,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T16:07:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6088.95,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T16:08:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6099.57,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T16:09:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6097.41,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T16:10:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6064.69,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T16:11:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6029.25,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T16:12:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6040.14,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T16:13:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6017.1,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T16:14:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6031.75,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T16:15:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6039.54,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T16:16:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6031.62,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T16:17:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6037.6,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T16:18:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6066.57,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T16:19:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6063.96,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T16:20:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6055.85,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T16:21:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6054.48,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T16:22:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6064.41,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T16:23:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6065.5,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T16:24:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6057.89,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T16:25:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6071.32,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T16:26:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6055.15,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T16:27:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6050.91,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T16:28:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6041.11,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T16:29:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6048.91,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T16:30:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6042.13,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T16:31:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6040.6,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T16:32:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6029.23,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T16:33:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6030.3,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T16:34:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6022.81,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T16:35:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6018.93,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T16:36:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6040.68,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T16:37:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6044.48,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T16:38:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6042.43,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T16:39:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6049,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T16:40:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6050.96,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T16:41:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6055.46,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T16:42:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6049.27,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T16:43:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6041.95,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T16:44:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6042.55,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T16:45:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6045.69,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T16:46:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6037.3,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T16:47:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6025.02,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T16:48:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6018.62,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T16:49:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5979.28,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T16:50:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5965.62,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T16:51:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5975.57,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T16:52:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5970.51,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T16:53:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5968.15,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T16:54:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6026.48,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T16:55:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6032.18,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T16:56:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6039.97,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T16:57:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6047.28,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T16:58:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6062.06,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T16:59:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6053.04,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T17:00:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6088.08,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T17:01:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6095.75,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T17:02:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6086.48,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T17:03:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6073.61,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T17:04:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6094.83,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T17:05:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6143.42,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T17:06:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6162.01,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T17:07:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6184.72,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T17:08:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6217.99,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T17:09:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6123.99,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T17:10:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6185.17,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T17:11:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6162.35,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T17:12:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6151.88,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T17:13:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6121.01,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T17:14:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6114.37,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T17:15:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6124.12,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T17:16:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6143,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T17:17:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6133.14,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T17:18:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6131.6,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T17:19:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6127.41,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T17:20:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6143.85,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T17:21:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6163.06,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T17:22:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6176.15,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T17:23:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6180.38,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T17:24:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6149.41,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T17:25:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6149.81,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T17:26:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6157.86,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T17:27:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6157.49,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T17:28:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6137.2,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T17:29:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6132.51,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T17:30:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6155.2,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T17:31:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6171.92,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T17:32:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6162.15,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T17:33:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6152.74,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T17:34:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6143.03,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T17:35:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6151.17,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T17:36:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6141.73,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T17:37:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6128.45,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T17:38:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6112.34,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T17:39:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6120.59,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T17:40:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6103.69,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T17:41:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6094.5,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T17:42:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6086.8,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T17:43:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6081.02,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T17:44:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6081.04,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T17:45:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6084.54,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T17:46:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6091.6,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T17:47:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6099.17,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T17:48:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6106.41,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T17:49:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6113.27,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T17:50:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6110.95,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T17:51:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6119.8,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T17:52:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6130.27,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T17:53:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6114.36,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T17:54:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6104.19,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T17:55:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6102.21,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T17:56:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6109.87,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T17:57:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6096.53,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T17:58:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6107.59,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T17:59:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6109.14,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T18:00:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6111.92,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T18:01:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6116.82,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T18:02:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6104.61,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T18:03:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6099.37,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T18:04:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6113.58,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T18:05:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6120.87,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T18:06:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6131.89,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T18:07:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6148.14,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T18:08:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6144.09,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T18:09:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6138.43,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T18:10:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6133.5,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T18:11:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6126.9,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T18:12:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6130.37,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T18:13:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6106.11,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T18:14:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6114.65,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T18:15:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6127.67,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T18:16:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6113.21,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T18:17:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6124.79,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T18:18:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6116.11,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T18:19:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6120.44,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T18:20:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6117.22,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T18:21:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6124.38,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T18:22:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6113.24,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T18:23:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6100.5,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T18:24:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6101.18,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T18:25:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6108.76,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T18:26:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6097.84,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T18:27:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6109.42,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T18:28:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6120.49,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T18:29:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6118.71,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T18:30:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6129.43,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T18:31:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6110.1,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T18:32:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6105.63,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T18:33:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6109.08,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T18:34:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6088.9,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T18:35:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6057.2,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T18:36:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6071.86,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T18:37:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6078.37,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T18:38:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6062.54,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T18:39:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6064.9,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T18:40:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6068.86,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T18:41:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6028.59,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T18:42:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6017.4,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T18:43:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6025.41,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T18:44:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6023.09,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T18:45:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6033.36,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T18:46:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6028.37,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T18:47:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6018.78,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T18:48:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6017.61,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T18:49:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6047.65,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T18:50:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6052.86,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T18:51:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6066.43,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T18:52:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6062.77,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T18:53:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6053.17,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T18:54:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6047.29,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T18:55:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6033.33,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T18:56:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6032.97,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T18:57:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6032.73,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T18:58:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6018.71,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T18:59:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5984.59,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T19:00:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5987.93,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T19:01:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6021.47,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T19:02:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6018.63,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T19:03:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6022.73,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T19:04:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6013.05,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T19:05:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6011.83,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T19:06:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6016.01,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T19:07:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6002.77,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T19:08:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5996.03,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T19:09:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6010.07,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T19:10:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6031.77,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T19:11:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6054.22,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T19:12:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6046.77,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T19:13:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6036.67,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T19:14:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6040,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T19:15:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6042.77,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T19:16:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6034.92,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T19:17:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6034.87,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T19:18:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6050.42,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T19:19:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6056.39,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T19:20:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6056.02,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T19:21:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6063.17,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T19:22:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6070.75,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T19:23:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6071.2,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T19:24:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6057.82,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T19:25:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6053.59,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T19:26:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6067.08,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T19:27:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6052.6,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T19:28:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6065.5,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T19:29:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6078.07,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T19:30:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6062.8,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T19:31:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6058.66,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T19:32:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6071.93,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T19:33:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6083.57,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T19:34:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6087.13,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T19:35:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6061.6,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T19:36:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6061.32,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T19:37:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6071.49,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T19:38:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6061.04,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T19:39:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6048.96,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T19:40:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6048.87,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T19:41:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6078.04,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T19:42:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6080.82,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T19:43:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6072.85,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T19:44:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6067.28,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T19:45:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6046.35,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T19:46:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6049.98,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T19:47:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6046.47,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T19:48:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6039.06,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T19:49:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6046.47,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T19:50:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6047.07,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T19:51:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6077.71,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T19:52:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6073.07,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T19:53:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6070.31,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T19:54:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6066.83,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T19:55:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6072.94,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T19:56:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6043.36,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T19:57:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6045.02,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T19:58:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6035.6,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T19:59:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6003.93,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T20:00:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6034.41,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T20:01:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6031.95,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T20:02:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6031.6,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T20:03:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5996.42,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T20:04:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6004.92,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T20:05:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6010.48,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T20:06:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6010.8,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T20:07:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6013.37,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T20:08:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6012.08,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T20:09:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6013.12,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T20:10:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6005.13,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T20:11:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5993.25,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T20:12:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6013.19,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T20:13:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6007.03,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T20:14:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5998.28,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T20:15:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 6000.64,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T20:16:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5992.15,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T20:17:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5981.95,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T20:18:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5970.12,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T20:19:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5922.28,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T20:20:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5895.38,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T20:21:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5915.61,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T20:22:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5917.05,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T20:23:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5920.4,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T20:24:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5895.04,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T20:25:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5891.31,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T20:26:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5864.39,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T20:27:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5868.13,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T20:28:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5854.94,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T20:29:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5857.27,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T20:30:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5833.28,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T20:31:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5924.18,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T20:32:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5861.19,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T20:33:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5869.57,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T20:34:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5861.35,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T20:35:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5862.97,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T20:36:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5844.89,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T20:37:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5887.92,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T20:38:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5886.63,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T20:39:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5856.09,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T20:40:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5868.22,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T20:41:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5869.92,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T20:42:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5837.5,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T20:43:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5841.32,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T20:44:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5829.66,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T20:45:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5831.39,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T20:46:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5784.41,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T20:47:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5762.81,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T20:48:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5808.28,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T20:49:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5773.25,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T20:50:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5736.28,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T20:51:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5711.85,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T20:52:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5616.38,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T20:53:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5653.45,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T20:54:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5614.19,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T20:55:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5657.77,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T20:56:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5657.38,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T20:57:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5648.49,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T20:58:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5716.34,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T20:59:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5763.6,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T21:00:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5713.34,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T21:01:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5667.69,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T21:02:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5718.23,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T21:03:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5703.53,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T21:04:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5696.97,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T21:05:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5695.71,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T21:06:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5675.65,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T21:07:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5672.96,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T21:08:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5686.3,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T21:09:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5741.59,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T21:10:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5742.83,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T21:11:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5747.81,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T21:12:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5725.84,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T21:13:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5725.63,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T21:14:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5710.6,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T21:15:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5679.38,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T21:16:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5699.9,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T21:17:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5693.53,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T21:18:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5690.72,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T21:19:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5684.15,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T21:20:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5654.98,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T21:21:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5650.84,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T21:22:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5640.37,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T21:23:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5623.09,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T21:24:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5588.59,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T21:25:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5602.09,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T21:26:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5571.17,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T21:27:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5638.31,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T21:28:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5620.97,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T21:29:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5585.23,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T21:30:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5586.37,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T21:31:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5609.37,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T21:32:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5610.66,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T21:33:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5628.2,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T21:34:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5630.13,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T21:35:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5638.21,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T21:36:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5695.13,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T21:37:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5659.64,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T21:38:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5624.51,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T21:39:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5628.91,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T21:40:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5599.07,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T21:41:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5584.11,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T21:42:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5587.69,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T21:43:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5593.33,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T21:44:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5610.41,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T21:45:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5600.49,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T21:46:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5580.13,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T21:47:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5624.2,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T21:48:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5609.79,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T21:49:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5624.25,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T21:50:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5662.66,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T21:51:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5645.14,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T21:52:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5670.18,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T21:53:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5665.69,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T21:54:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5675.82,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T21:55:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5682.77,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T21:56:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5677.87,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T21:57:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5732.14,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T21:58:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5774.46,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T21:59:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5782.75,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T22:00:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5798.5,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T22:01:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5751.35,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T22:02:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5766.01,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T22:03:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5768.76,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T22:04:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5785.06,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T22:05:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5810.04,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T22:06:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5806.18,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T22:07:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5807.75,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T22:08:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5819.13,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T22:09:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5830.99,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T22:10:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5868.88,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T22:11:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5911.35,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T22:12:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5877.3,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T22:13:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5856.38,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T22:14:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5879.98,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T22:15:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5877.6,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T22:16:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5856.59,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T22:17:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5833.02,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T22:18:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5830.21,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T22:19:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5822.99,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T22:20:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5833.3,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T22:21:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5879.17,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T22:22:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5872.39,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T22:23:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5855.41,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T22:24:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5844.94,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T22:25:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5909.58,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T22:26:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5901.65,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T22:27:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5883.07,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T22:28:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5860.5,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T22:29:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5803.87,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T22:30:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5804.51,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T22:31:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5838.52,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T22:32:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5786.63,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T22:33:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5812.15,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T22:34:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5798.85,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T22:35:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5819.35,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T22:36:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5797.44,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T22:37:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5788.13,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T22:38:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5788.55,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T22:39:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5805.09,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T22:40:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5813.45,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T22:41:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5833.47,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T22:42:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5804.35,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T22:43:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5797.56,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T22:44:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5789.53,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T22:45:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5800.38,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T22:46:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5823.05,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T22:47:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5802.25,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T22:48:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5792.26,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T22:49:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5775.99,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T22:50:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5731.99,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T22:51:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5749.01,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T22:52:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5746.31,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T22:53:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5732.27,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T22:54:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5731.98,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T22:55:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5751.14,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T22:56:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5782.48,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T22:57:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5800.84,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T22:58:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5812.45,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T22:59:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5776.76,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T23:00:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5798.68,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T23:01:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5792.43,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T23:02:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5753.41,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T23:03:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5718.35,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T23:04:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5725.05,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T23:05:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5705.59,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T23:06:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5724.53,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T23:07:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5738.44,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T23:08:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5719.81,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T23:09:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5667.46,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T23:10:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5630.31,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T23:11:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5615.16,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T23:12:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5525.29,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T23:13:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5522.32,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T23:14:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5568.63,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T23:15:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5522.76,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T23:16:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5503.11,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T23:17:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5573.15,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T23:18:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5582.75,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T23:19:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5538.64,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T23:20:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5509.34,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T23:21:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5517.34,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T23:22:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5535.24,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T23:23:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5371.9,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T23:24:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5257.03,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T23:25:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5158.06,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T23:26:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5067.97,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T23:27:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 4940.16,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T23:28:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 4842.37,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T23:29:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 4785,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T23:30:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5167.69,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T23:31:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5018.08,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T23:32:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 4919.6,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T23:33:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 4934.09,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T23:34:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 4850.82,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T23:35:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 4886.61,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T23:36:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 4901.49,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T23:37:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 4857.77,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T23:38:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 4866.19,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T23:39:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 4845.09,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T23:40:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 4855.1,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T23:41:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 4855.67,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T23:42:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 4848.13,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T23:43:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 4856.81,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T23:44:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 4834.15,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T23:45:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 4854.97,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T23:46:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 4809.69,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T23:47:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 4779.46,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T23:48:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 4764.73,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T23:49:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 4751.48,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T23:50:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 4779.67,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T23:51:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 4777.82,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T23:52:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 4848.37,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T23:53:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 5007.89,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T23:54:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 4871.84,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T23:55:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 4713.42,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T23:56:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 4809.33,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T23:57:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 4760.81,
+      "tickDirection": "MinusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T23:58:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 4791.3,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-12T23:59:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 4850.08,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-13T00:00:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 4861.51,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2020-03-13T00:01:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 4968.72,
+      "tickDirection": "PlusTick",
+      "pool": "Primary"
+    }
+  ]
+}

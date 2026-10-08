@@ -1,0 +1,40 @@
+{
+  "url": "https://www.bitmex.com/api/v1/trade?symbol=.BVOL7D&count=1&reverse=true",
+  "fetchedAtUtc": "2026-10-07T11:49:23.678Z",
+  "headers": {
+    "Content-Type": "application/json;charset=utf-8",
+    "Content-Length": "165",
+    "Connection": "close",
+    "server": "istio-envoy",
+    "date": "Wed, 07 Oct 2026 11:49:23 GMT",
+    "vary": "Origin,Access-Control-Request-Method,Access-Control-Request-Headers",
+    "x-amzn-trace-id": "",
+    "x-content-type-options": "nosniff",
+    "x-xss-protection": "0",
+    "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+    "pragma": "no-cache",
+    "expires": "0",
+    "x-frame-options": "DENY",
+    "x-envoy-upstream-service-time": "4",
+    "x-request-id": "6b612636-dea5-4ef3-aa62-b94f68c435be",
+    "x-ratelimit-limit": "180",
+    "x-ratelimit-remaining": "179",
+    "x-ratelimit-reset": "1791373763",
+    "X-Cache": "Miss from cloudfront",
+    "Via": "1.1 3fc3002a34e290e211500d004cc7e67a.cloudfront.net (CloudFront)",
+    "X-Amz-Cf-Pop": "MAD53-P5",
+    "X-Amz-Cf-Id": "nLAhz_8vycOKAbVOxD6V20dGMfXWk5Wg92m8w75sOw9WD3DkUUgWmQ=="
+  },
+  "rows": [
+    {
+      "timestamp": "2026-10-07T11:45:00.000Z",
+      "symbol": ".BVOL7D",
+      "side": "Buy",
+      "size": 0,
+      "price": 4.43,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    }
+  ]
+}

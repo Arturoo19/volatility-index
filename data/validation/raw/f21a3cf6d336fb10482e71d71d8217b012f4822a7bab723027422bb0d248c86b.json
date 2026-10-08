@@ -1,0 +1,5254 @@
+{
+  "url": "https://www.bitmex.com/api/v1/trade?symbol=.BXBT&count=1000&reverse=false&startTime=2026-09-18T15%3A18%3A00.001Z&endTime=2026-09-19T00%3A01%3A00.000Z",
+  "fetchedAtUtc": "2026-10-07T11:25:46.322Z",
+  "headers": {
+    "Content-Type": "application/json;charset=utf-8",
+    "Content-Length": "86491",
+    "Connection": "close",
+    "server": "istio-envoy",
+    "date": "Wed, 07 Oct 2026 11:25:46 GMT",
+    "vary": "Origin,Access-Control-Request-Method,Access-Control-Request-Headers",
+    "x-amzn-trace-id": "",
+    "x-envoy-upstream-service-time": "17",
+    "x-request-id": "2fa9fdab-c12c-4301-b3e3-007c533c9ef6",
+    "x-ratelimit-limit": "180",
+    "x-ratelimit-remaining": "179",
+    "x-ratelimit-reset": "1791372346",
+    "X-Cache": "Miss from cloudfront",
+    "Via": "1.1 6348feac77fcec9f819946eaafca5fca.cloudfront.net (CloudFront)",
+    "X-Amz-Cf-Pop": "MAD53-P5",
+    "X-Amz-Cf-Id": "lrLANwPwKFYQXXKDx9y4YblOg897N82j_2l0ejIou_ORFv-Fr9eT2g=="
+  },
+  "rows": [
+    {
+      "timestamp": "2026-09-18T15:19:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80850.18,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T15:20:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80863.74,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T15:21:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80875.67,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T15:22:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80834.23,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T15:23:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80939.6,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T15:24:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80988.04,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T15:25:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81057.67,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T15:26:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81022.75,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T15:27:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80937.76,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T15:28:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80954.94,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T15:29:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80887.6,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T15:30:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80934.93,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T15:31:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80844.9,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T15:32:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80839.9,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T15:33:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80719.89,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T15:34:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80748.86,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T15:35:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80802.15,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T15:36:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80772.13,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T15:37:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80744.02,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T15:38:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80789.4,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T15:39:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80731.78,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T15:40:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80741.11,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T15:41:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80731.17,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T15:42:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80719.4,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T15:43:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80720.25,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T15:44:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80673.13,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T15:45:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80631.88,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T15:46:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80550.22,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T15:47:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80644.81,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T15:48:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80655.23,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T15:49:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80700.04,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T15:50:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80658.95,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T15:51:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80727.81,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T15:52:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80800.7,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T15:53:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80743.64,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T15:54:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80709,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T15:55:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80683.57,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T15:56:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80618.13,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T15:57:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80627.43,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T15:58:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80723.38,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T15:59:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80679.93,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T16:00:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80706.74,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T16:01:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80708.13,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T16:02:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80710.89,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T16:03:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80777.49,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T16:04:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80684.46,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T16:05:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80808.34,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T16:06:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80827.81,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T16:07:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80850.56,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T16:08:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80819,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T16:09:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80718.32,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T16:10:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80789.26,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T16:11:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80758.54,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T16:12:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80870.92,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T16:13:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80884.71,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T16:14:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80874.37,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T16:15:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80952.48,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T16:16:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80921.35,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T16:17:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80961.32,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T16:18:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80976.07,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T16:19:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81010.46,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T16:20:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80948.94,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T16:21:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81016.89,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T16:22:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81045.06,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T16:23:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81006.91,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T16:24:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80891.37,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T16:25:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80988.14,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T16:26:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80952.92,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T16:27:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80888.71,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T16:28:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80923.63,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T16:29:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80964.05,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T16:30:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81027.6,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T16:31:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81032.19,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T16:32:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81083.81,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T16:33:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81141.99,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T16:34:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81231.2,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T16:35:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81182.14,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T16:36:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81128.86,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T16:37:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81064.99,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T16:38:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81029.79,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T16:39:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80979.46,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T16:40:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81003.55,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T16:41:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80926.01,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T16:42:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80877.97,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T16:43:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80967.86,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T16:44:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80944.25,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T16:45:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80982.88,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T16:46:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80884.89,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T16:47:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80839.42,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T16:48:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80892.86,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T16:49:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80816.04,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T16:50:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80831.94,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T16:51:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80788.57,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T16:52:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80854.65,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T16:53:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80867.65,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T16:54:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80905.44,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T16:55:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80925.76,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T16:56:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80899.52,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T16:57:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80918.18,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T16:58:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80914.88,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T16:59:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80823.02,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T17:00:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80828.47,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T17:01:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80828.47,
+      "tickDirection": "ZeroPlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T17:02:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80843.77,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T17:03:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80766.49,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T17:04:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80796.26,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T17:05:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80861.2,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T17:06:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80845.89,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T17:07:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80821.75,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T17:08:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80836.65,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T17:09:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80783.35,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T17:10:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80778.49,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T17:11:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80762.74,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T17:12:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80787.75,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T17:13:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80780.56,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T17:14:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80851.05,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T17:15:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80876.68,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T17:16:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80919.84,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T17:17:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80893.1,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T17:18:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80898.06,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T17:19:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80841.93,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T17:20:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80796.79,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T17:21:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80759.19,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T17:22:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80782.01,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T17:23:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80706.68,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T17:24:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80625.27,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T17:25:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80749.1,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T17:26:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80768.46,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T17:27:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80707.48,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T17:28:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80776.6,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T17:29:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80740.54,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T17:30:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80731.83,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T17:31:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80670.25,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T17:32:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80581.07,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T17:33:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80582.5,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T17:34:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80565.63,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T17:35:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80578.96,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T17:36:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80600.45,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T17:37:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80609.86,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T17:38:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80624.18,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T17:39:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80664.06,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T17:40:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80661.62,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T17:41:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80664.56,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T17:42:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80713.34,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T17:43:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80714.22,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T17:44:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80714.86,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T17:45:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80751.66,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T17:46:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80759.88,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T17:47:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80789.03,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T17:48:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80813.93,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T17:49:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80834.88,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T17:50:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80831.65,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T17:51:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80879.81,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T17:52:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80881.82,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T17:53:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80905.53,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T17:54:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80857.01,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T17:55:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80845.57,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T17:56:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80899.37,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T17:57:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80895.76,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T17:58:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80929.34,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T17:59:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80978.52,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T18:00:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80999.82,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T18:01:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80902.47,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T18:02:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80946.39,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T18:03:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80918.1,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T18:04:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80865.87,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T18:05:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80890.25,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T18:06:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80915.27,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T18:07:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80893.1,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T18:08:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80921.93,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T18:09:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80885.05,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T18:10:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80908.05,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T18:11:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80913.37,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T18:12:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80915.13,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T18:13:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80822.66,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T18:14:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80829.66,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T18:15:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80860.93,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T18:16:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80817.81,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T18:17:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80817.9,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T18:18:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80832.05,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T18:19:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80870.12,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T18:20:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80895.04,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T18:21:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80891.79,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T18:22:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80859.76,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T18:23:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80913,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T18:24:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80886.84,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T18:25:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80812.72,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T18:26:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80902.58,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T18:27:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80904.74,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T18:28:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80950.89,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T18:29:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80945.53,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T18:30:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80979.02,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T18:31:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80950.45,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T18:32:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80906.84,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T18:33:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80996.97,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T18:34:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80906.75,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T18:35:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81024.93,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T18:36:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80964.33,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T18:37:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81020.53,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T18:38:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81075.18,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T18:39:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81075.76,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T18:40:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81110.46,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T18:41:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81044.65,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T18:42:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80971.49,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T18:43:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80948.2,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T18:44:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80962.03,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T18:45:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80924.99,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T18:46:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80951.71,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T18:47:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80962.97,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T18:48:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80991.97,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T18:49:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81010.77,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T18:50:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81024.88,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T18:51:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80977.07,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T18:52:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81000.81,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T18:53:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80988.06,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T18:54:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81048.5,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T18:55:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80990.16,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T18:56:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80941.19,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T18:57:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80898.83,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T18:58:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80867.32,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T18:59:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80943.37,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T19:00:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80924.37,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T19:01:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80907.38,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T19:02:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80927.91,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T19:03:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80923.33,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T19:04:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80973.12,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T19:05:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80958.74,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T19:06:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80995.59,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T19:07:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81060.89,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T19:08:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81038.55,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T19:09:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81038.17,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T19:10:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81076.76,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T19:11:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81068.46,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T19:12:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81146.91,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T19:13:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81180.13,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T19:14:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81143.08,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T19:15:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81183.93,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T19:16:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81222.48,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T19:17:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81169.01,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T19:18:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81202.17,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T19:19:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81206.03,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T19:20:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81201.88,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T19:21:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81186.11,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T19:22:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81146.78,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T19:23:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81129.23,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T19:24:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81125.32,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T19:25:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81125.4,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T19:26:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81181.45,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T19:27:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81204.47,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T19:28:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81209.01,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T19:29:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81293.47,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T19:30:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81249.54,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T19:31:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81173.78,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T19:32:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81166.77,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T19:33:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81163.83,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T19:34:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81148.21,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T19:35:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81116.05,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T19:36:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81107.35,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T19:37:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81120.51,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T19:38:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81053.86,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T19:39:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81099.71,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T19:40:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81071.61,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T19:41:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81173.52,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T19:42:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81236.68,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T19:43:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81183.35,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T19:44:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81193.9,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T19:45:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81235.44,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T19:46:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81170.14,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T19:47:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81227.43,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T19:48:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81271.36,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T19:49:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81349.18,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T19:50:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81301.88,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T19:51:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81316.13,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T19:52:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81221.84,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T19:53:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81306.11,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T19:54:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81287.68,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T19:55:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81129.6,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T19:56:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81183.05,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T19:57:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81234.41,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T19:58:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81239.44,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T19:59:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81201.34,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T20:00:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81191.11,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T20:01:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81058.86,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T20:02:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81080.73,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T20:03:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81096.81,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T20:04:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81079.45,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T20:05:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81175.91,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T20:06:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81200.37,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T20:07:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81113.06,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T20:08:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81026.68,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T20:09:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81015.42,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T20:10:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80973.96,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T20:11:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81011.01,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T20:12:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81022.17,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T20:13:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81014.99,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T20:14:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81077.27,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T20:15:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81056.42,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T20:16:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81108.65,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T20:17:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81088.98,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T20:18:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81142.92,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T20:19:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81176.62,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T20:20:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81190.84,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T20:21:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81200.97,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T20:22:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81153.74,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T20:23:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81133.05,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T20:24:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81098.96,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T20:25:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81066.87,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T20:26:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81051.49,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T20:27:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81020.38,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T20:28:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80962.39,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T20:29:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80984.2,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T20:30:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81006.99,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T20:31:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80996.33,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T20:32:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81046.91,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T20:33:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80989.22,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T20:34:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81010.01,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T20:35:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81009.8,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T20:36:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81012.99,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T20:37:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81023,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T20:38:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80963.94,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T20:39:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80951.41,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T20:40:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80992.54,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T20:41:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80971.11,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T20:42:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80985.77,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T20:43:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81079.58,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T20:44:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81157.58,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T20:45:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81156.39,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T20:46:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81161.9,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T20:47:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81136.57,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T20:48:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81165.72,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T20:49:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81172.45,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T20:50:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81076.18,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T20:51:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81121.32,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T20:52:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81154.06,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T20:53:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81127.13,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T20:54:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81102.43,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T20:55:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81076.95,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T20:56:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81081.35,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T20:57:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81062.99,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T20:58:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81095.67,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T20:59:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81078.18,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T21:00:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81102.81,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T21:01:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81157.82,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T21:02:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81080.7,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T21:03:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81151.13,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T21:04:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81165.47,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T21:05:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81180.65,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T21:06:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81161.75,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T21:07:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81176.03,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T21:08:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81227.78,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T21:09:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81189.22,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T21:10:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81166.03,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T21:11:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81205.36,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T21:12:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81203.18,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T21:13:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81236.64,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T21:14:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81244.63,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T21:15:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81265.89,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T21:16:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81187.83,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T21:17:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81210.54,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T21:18:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81197.69,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T21:19:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81112.45,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T21:20:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81109.86,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T21:21:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81155.6,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T21:22:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81132.34,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T21:23:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81174.5,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T21:24:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81182.78,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T21:25:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81182.2,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T21:26:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81212.61,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T21:27:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81198.13,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T21:28:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81174.4,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T21:29:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81168.16,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T21:30:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81177.77,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T21:31:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81189.17,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T21:32:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81141.06,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T21:33:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81154.42,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T21:34:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81144.69,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T21:35:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81140.53,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T21:36:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81153.21,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T21:37:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81164.95,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T21:38:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81172.92,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T21:39:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81209.52,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T21:40:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81236.73,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T21:41:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81216.92,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T21:42:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81254.71,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T21:43:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81258.15,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T21:44:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81221.33,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T21:45:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81203.91,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T21:46:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81191.99,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T21:47:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81169.34,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T21:48:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81180.51,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T21:49:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81170.93,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T21:50:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81210.33,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T21:51:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81242.96,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T21:52:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81214.04,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T21:53:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81188.04,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T21:54:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81199.37,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T21:55:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81210.82,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T21:56:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81216.5,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T21:57:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81198.87,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T21:58:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81236.3,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T21:59:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81230.17,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T22:00:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81223.23,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T22:01:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81228.96,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T22:02:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81199.93,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T22:03:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81231.22,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T22:04:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81242.43,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T22:05:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81231.41,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T22:06:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81243.68,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T22:07:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81247.46,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T22:08:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81296.54,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T22:09:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81329.87,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T22:10:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81332.53,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T22:11:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81339.25,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T22:12:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81293.08,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T22:13:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81244.7,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T22:14:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81226.24,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T22:15:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81237.42,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T22:16:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81266.2,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T22:17:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81288.19,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T22:18:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81281.89,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T22:19:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81310.56,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T22:20:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81320.74,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T22:21:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81295.98,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T22:22:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81312.15,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T22:23:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81300.27,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T22:24:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81255.48,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T22:25:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81249.68,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T22:26:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81243.9,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T22:27:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81236.54,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T22:28:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81237.73,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T22:29:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81240.85,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T22:30:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81252.03,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T22:31:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81244.97,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T22:32:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81227.63,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T22:33:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81186.8,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T22:34:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81198.19,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T22:35:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81159.32,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T22:36:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81163.16,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T22:37:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81141.41,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T22:38:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81092.62,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T22:39:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81116.92,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T22:40:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81174.36,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T22:41:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81170.84,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T22:42:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81160.01,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T22:43:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81160.23,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T22:44:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81129.91,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T22:45:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81109.54,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T22:46:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81107.42,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T22:47:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81111.54,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T22:48:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81108.84,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T22:49:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81086.93,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T22:50:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81114.02,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T22:51:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81113.33,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T22:52:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81088.51,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T22:53:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81097.72,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T22:54:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81097.86,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T22:55:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81117.64,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T22:56:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81132.11,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T22:57:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81105.91,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T22:58:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81098.94,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T22:59:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81142.21,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T23:00:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81122.12,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T23:01:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81191.4,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T23:02:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81194.63,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T23:03:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81189.46,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T23:04:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81156.84,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T23:05:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81145.12,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T23:06:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81086.54,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T23:07:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81086.23,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T23:08:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81087.16,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T23:09:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81135.99,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T23:10:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81121.9,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T23:11:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81098.45,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T23:12:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81108.83,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T23:13:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81100.93,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T23:14:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81154.8,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T23:15:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81164.28,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T23:16:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81184.47,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T23:17:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81144.35,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T23:18:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81130.76,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T23:19:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81128.68,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T23:20:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81117.54,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T23:21:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81115.61,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T23:22:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81098.31,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T23:23:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81079.2,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T23:24:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81067.34,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T23:25:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81042.99,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T23:26:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81017.51,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T23:27:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81005.25,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T23:28:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81014.95,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T23:29:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80992,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T23:30:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80981.51,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T23:31:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80963,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T23:32:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80963.72,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T23:33:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80941.81,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T23:34:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80946.84,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T23:35:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 81010.37,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T23:36:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80955.96,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T23:37:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80936.6,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T23:38:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80893.78,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T23:39:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80897.8,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T23:40:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80884.58,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T23:41:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80859.22,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T23:42:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80882.47,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T23:43:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80888.74,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T23:44:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80897.02,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T23:45:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80885.47,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T23:46:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80886.39,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T23:47:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80874.17,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T23:48:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80893.35,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T23:49:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80882.37,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T23:50:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80899.87,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T23:51:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80893.71,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T23:52:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80946.08,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T23:53:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80881.74,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T23:54:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80901.73,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T23:55:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80893.94,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T23:56:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80900.25,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T23:57:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80905.78,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T23:58:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80963.2,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-18T23:59:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80903.26,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-19T00:00:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80882.52,
+      "tickDirection": "MinusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    },
+    {
+      "timestamp": "2026-09-19T00:01:00.000Z",
+      "symbol": ".BXBT",
+      "side": "Buy",
+      "size": 0,
+      "price": 80922.22,
+      "tickDirection": "PlusTick",
+      "trdType": "Referential",
+      "pool": "Primary"
+    }
+  ]
+}

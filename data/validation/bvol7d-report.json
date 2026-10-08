@@ -1,0 +1,262 @@
+{
+  "formula": "100 * sample_std(log(Pi/Pi-1)) * sqrt(10080)",
+  "last_price": "at publication timestamp T",
+  "rounding": "Python round(x, 2), nearest ties-to-even; BitMEX tie rule unverified",
+  "periods": [
+    {
+      "role": "calibration",
+      "start": "2026-09-18T00:00:00.000Z",
+      "end_inclusive": "2026-09-19T00:00:00.000Z",
+      "price_records": 11523,
+      "official_records": 289,
+      "price_pages": 12,
+      "index_pages": 1,
+      "missing_price_timestamps": [],
+      "missing_official_timestamps": [],
+      "metrics": {
+        "compared_points": 289,
+        "invalid_windows": 0,
+        "invalid_timestamps": [],
+        "mean_absolute_error_pp": 0.002524686922393811,
+        "maximum_absolute_error_pp": 0.004984573608173726,
+        "rounded_match_percent": 100.0,
+        "largest_discrepancies": [
+          {
+            "timestamp": "2026-09-18T02:50:00.000Z",
+            "official": 5.14,
+            "calculated": 5.135015426391826,
+            "absolute_error": 0.004984573608173726,
+            "rounded_equal": true
+          },
+          {
+            "timestamp": "2026-09-18T16:05:00.000Z",
+            "official": 5,
+            "calculated": 4.995018707667803,
+            "absolute_error": 0.004981292332196574,
+            "rounded_equal": true
+          },
+          {
+            "timestamp": "2026-09-18T13:50:00.000Z",
+            "official": 5,
+            "calculated": 4.995033689225397,
+            "absolute_error": 0.004966310774602967,
+            "rounded_equal": true
+          },
+          {
+            "timestamp": "2026-09-18T21:45:00.000Z",
+            "official": 5.01,
+            "calculated": 5.014952901758422,
+            "absolute_error": 0.004952901758422001,
+            "rounded_equal": true
+          },
+          {
+            "timestamp": "2026-09-18T13:25:00.000Z",
+            "official": 4.97,
+            "calculated": 4.974951729310543,
+            "absolute_error": 0.004951729310543662,
+            "rounded_equal": true
+          }
+        ]
+      },
+      "diagnostics": [
+        {
+          "shift_minutes": -1,
+          "ddof": 1,
+          "compared_points": 289,
+          "invalid_windows": 0,
+          "invalid_timestamps": [],
+          "mean_absolute_error_pp": 0.002831983065979128,
+          "maximum_absolute_error_pp": 0.021197649239200977,
+          "rounded_match_percent": 95.50173010380622,
+          "largest_discrepancies": [
+            {
+              "timestamp": "2026-09-18T13:50:00.000Z",
+              "official": 5,
+              "calculated": 5.021197649239201,
+              "absolute_error": 0.021197649239200977,
+              "rounded_equal": false
+            },
+            {
+              "timestamp": "2026-09-18T12:35:00.000Z",
+              "official": 5.03,
+              "calculated": 5.046035544731602,
+              "absolute_error": 0.016035544731601625,
+              "rounded_equal": false
+            },
+            {
+              "timestamp": "2026-09-18T12:30:00.000Z",
+              "official": 5.18,
+              "calculated": 5.195281545278815,
+              "absolute_error": 0.015281545278814868,
+              "rounded_equal": false
+            },
+            {
+              "timestamp": "2026-09-18T13:40:00.000Z",
+              "official": 4.97,
+              "calculated": 4.955953673822767,
+              "absolute_error": 0.014046326177232338,
+              "rounded_equal": false
+            },
+            {
+              "timestamp": "2026-09-18T15:55:00.000Z",
+              "official": 5.01,
+              "calculated": 5.022793225285905,
+              "absolute_error": 0.012793225285904875,
+              "rounded_equal": false
+            }
+          ]
+        },
+        {
+          "shift_minutes": 1,
+          "ddof": 1,
+          "compared_points": 289,
+          "invalid_windows": 0,
+          "invalid_timestamps": [],
+          "mean_absolute_error_pp": 0.0030166183323958496,
+          "maximum_absolute_error_pp": 0.09847896681192747,
+          "rounded_match_percent": 95.8477508650519,
+          "largest_discrepancies": [
+            {
+              "timestamp": "2026-09-18T12:30:00.000Z",
+              "official": 5.18,
+              "calculated": 5.081521033188072,
+              "absolute_error": 0.09847896681192747,
+              "rounded_equal": false
+            },
+            {
+              "timestamp": "2026-09-18T14:00:00.000Z",
+              "official": 5.01,
+              "calculated": 5.024619404729228,
+              "absolute_error": 0.014619404729228513,
+              "rounded_equal": false
+            },
+            {
+              "timestamp": "2026-09-18T16:05:00.000Z",
+              "official": 5,
+              "calculated": 4.990728851340447,
+              "absolute_error": 0.009271148659553141,
+              "rounded_equal": false
+            },
+            {
+              "timestamp": "2026-09-18T13:40:00.000Z",
+              "official": 4.97,
+              "calculated": 4.978399759367405,
+              "absolute_error": 0.008399759367405224,
+              "rounded_equal": false
+            },
+            {
+              "timestamp": "2026-09-18T16:25:00.000Z",
+              "official": 4.99,
+              "calculated": 4.983222187271296,
+              "absolute_error": 0.006777812728704369,
+              "rounded_equal": false
+            }
+          ]
+        },
+        {
+          "shift_minutes": 0,
+          "ddof": 0,
+          "compared_points": 289,
+          "invalid_windows": 0,
+          "invalid_timestamps": [],
+          "mean_absolute_error_pp": 0.0025692916270141464,
+          "maximum_absolute_error_pp": 0.005239292992560429,
+          "rounded_match_percent": 96.19377162629758,
+          "largest_discrepancies": [
+            {
+              "timestamp": "2026-09-18T02:50:00.000Z",
+              "official": 5.14,
+              "calculated": 5.134760707007439,
+              "absolute_error": 0.005239292992560429,
+              "rounded_equal": false
+            },
+            {
+              "timestamp": "2026-09-18T16:05:00.000Z",
+              "official": 5,
+              "calculated": 4.994770932737337,
+              "absolute_error": 0.005229067262662923,
+              "rounded_equal": false
+            },
+            {
+              "timestamp": "2026-09-18T13:50:00.000Z",
+              "official": 5,
+              "calculated": 4.994785913551779,
+              "absolute_error": 0.005214086448220634,
+              "rounded_equal": false
+            },
+            {
+              "timestamp": "2026-09-18T03:50:00.000Z",
+              "official": 5.15,
+              "calculated": 5.144795770219208,
+              "absolute_error": 0.005204229780792602,
+              "rounded_equal": false
+            },
+            {
+              "timestamp": "2026-09-18T22:50:00.000Z",
+              "official": 5.01,
+              "calculated": 5.004834782113213,
+              "absolute_error": 0.005165217886786699,
+              "rounded_equal": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "role": "holdout",
+      "start": "2025-05-01T00:00:00.000Z",
+      "end_inclusive": "2025-05-02T00:00:00.000Z",
+      "price_records": 11523,
+      "official_records": 289,
+      "price_pages": 12,
+      "index_pages": 1,
+      "missing_price_timestamps": [],
+      "missing_official_timestamps": [],
+      "metrics": {
+        "compared_points": 289,
+        "invalid_windows": 0,
+        "invalid_timestamps": [],
+        "mean_absolute_error_pp": 0.0024575550325601305,
+        "maximum_absolute_error_pp": 0.004997171593760008,
+        "rounded_match_percent": 100.0,
+        "largest_discrepancies": [
+          {
+            "timestamp": "2025-05-01T13:10:00.000Z",
+            "official": 4.47,
+            "calculated": 4.46500282840624,
+            "absolute_error": 0.004997171593760008,
+            "rounded_equal": true
+          },
+          {
+            "timestamp": "2025-05-01T15:40:00.000Z",
+            "official": 4.47,
+            "calculated": 4.474994666832205,
+            "absolute_error": 0.004994666832205397,
+            "rounded_equal": true
+          },
+          {
+            "timestamp": "2025-05-01T14:05:00.000Z",
+            "official": 4.47,
+            "calculated": 4.474983777126673,
+            "absolute_error": 0.0049837771266734165,
+            "rounded_equal": true
+          },
+          {
+            "timestamp": "2025-05-01T17:20:00.000Z",
+            "official": 4.48,
+            "calculated": 4.475023070344602,
+            "absolute_error": 0.004976929655398088,
+            "rounded_equal": true
+          },
+          {
+            "timestamp": "2025-05-01T07:05:00.000Z",
+            "official": 4.5,
+            "calculated": 4.495032061366216,
+            "absolute_error": 0.004967938633783753,
+            "rounded_equal": true
+          }
+        ]
+      }
+    }
+  ]
+}
