@@ -5,6 +5,8 @@ site/bxbt-live.json
 site/bxbt-live.json.tmp
 site/bitstamp-live.json
 site/bitstamp-live.json.tmp
+site/runtime-data/
+volatility-index-deploy.tar.gz
 
 # Credentials and machine-specific settings
 .env

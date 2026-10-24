@@ -1,0 +1,34 @@
+name: volatility-index
+
+services:
+  web:
+    build: .
+    image: volatility-index:local
+    restart: unless-stopped
+    init: true
+    environment:
+      HOST: 0.0.0.0
+      PORT: "4173"
+      DATA_DIR: /app/runtime-data
+      NODE_OPTIONS: --max-old-space-size=256
+    ports:
+      - "${PUBLIC_BIND_ADDRESS:-0.0.0.0}:${PUBLIC_PORT:-4173}:4173"
+    volumes:
+      - market-data:/app/runtime-data
+    read_only: true
+    tmpfs:
+      - /tmp
+    cap_drop:
+      - ALL
+    security_opt:
+      - no-new-privileges:true
+    mem_limit: 512m
+    pids_limit: 100
+    logging:
+      driver: json-file
+      options:
+        max-size: 10m
+        max-file: "3"
+
+volumes:
+  market-data:

@@ -1,23 +1,30 @@
 import http from 'node:http';
 import {readFile} from 'node:fs/promises';
-import {fileURLToPath} from 'node:url';
 import path from 'node:path';
 import {aggregate} from './dist/chart-data.js';
 import {toCSV} from './dist/csv.js';
 import {createMarketStore} from './market-store.mjs';
 import {createLiveCalculation} from './live-calculation.mjs';
 import {createBitstampFeed,SOURCE,fallbackNeeded} from './bitstamp-feed.mjs';
-const root=path.resolve(fileURLToPath(new URL('./dist/',import.meta.url)));
+import {readServerConfig,prepareStorage} from './server-config.mjs';
+const config=readServerConfig();
+await prepareStorage(config);
+const root=config.root;
 const types={'.html':'text/html; charset=utf-8','.js':'text/javascript; charset=utf-8','.css':'text/css; charset=utf-8','.json':'application/json','.svg':'image/svg+xml'};
-const store=createMarketStore(path.join(root,'data/market.json'));
-const calculation=createLiveCalculation(path.resolve(root,'../bxbt-live.json'));
-const fallback=createLiveCalculation(path.resolve(root,'../bitstamp-live.json'),{source:SOURCE,priceFeed:createBitstampFeed()});
+const store=createMarketStore(config.marketFile);
+const calculation=createLiveCalculation(config.calculationFile);
+const fallback=createLiveCalculation(config.fallbackFile,{source:SOURCE,priceFeed:createBitstampFeed()});
 async function refreshCalculations(){await calculation.refresh();const needed=fallbackNeeded(await calculation.response());if(Object.values(needed).some(Boolean))await fallback.refresh();}
 async function refreshAll(){await store.refresh();await refreshCalculations();}
 void refreshAll();setInterval(()=>void refreshAll(),300000).unref();
-http.createServer(async(req,res)=>{
+const server=http.createServer(async(req,res)=>{
   try{
     const url=new URL(req.url,'http://localhost');
+    if(url.pathname==='/healthz'){
+      if(req.method!=='GET'){res.writeHead(405).end();return;}
+      await store.load();
+      res.writeHead(200,{'Content-Type':'application/json','Cache-Control':'no-store'}).end(JSON.stringify({status:'ok'}));return;
+    }
     if(url.pathname==='/api/market'){
       if(req.method==='POST'){await store.refresh();void refreshCalculations();}
       else if(req.method!=='GET'){res.writeHead(405).end();return;}
@@ -33,7 +40,7 @@ http.createServer(async(req,res)=>{
     }
     const file=path.resolve(root,'.'+decodeURIComponent(url.pathname==='/'?'/index.html':url.pathname));
     if(!file.startsWith(root+path.sep)&&file!==path.join(root,'index.html')){res.writeHead(403).end();return;}
-    const body=await readFile(file);
+    const body=await readFile(url.pathname==='/data/market.json'?config.marketFile:file);
     res.writeHead(200,{'Content-Type':types[path.extname(file)]||'text/plain','Cache-Control':'no-cache','X-Content-Type-Options':'nosniff'}).end(body);
   }catch{res.writeHead(404).end('Not found');}
-}).listen(4173,'127.0.0.1',()=>console.log('Local preview: http://127.0.0.1:4173'));
+}).listen(config.port,config.host,()=>console.log(`HTTP server: http://${config.host}:${server.address().port}`));

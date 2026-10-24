@@ -2,14 +2,23 @@
 
 ## User intent and next action
 
-Communicate in Ukrainian. The owner wants to transfer this project via GitHub to
-their home laptop, then host it on their own Hetzner VPS. The VPS has been used for
-n8n and OpenClaw. Server address, operating system, available resources, management
-panel, reverse proxy, Docker configuration and domain are not yet known. Do not
-assume the older services are absent or replace their configuration.
+2026-10-10 update: deployed at http://23.88.99.59:4173/ using a separate Compose
+project in `/root/volatility-index.us4VwD`. Container `volatility-index-web-1` is
+healthy. All 15 tests passed in the VPS Docker build. Both indices, independent
+calculations, static resources, six CSV aggregations, scheduled background updates
+and persisted cache after stop/start were checked. n8n/PostgreSQL/Caddy containers
+and OpenClaw retained their IDs/PID and startup times; HTTP checks returned 200.
+Current deployment is HTTP by IP, not an HTTPS/domain route. See
+`docs/DEPLOYMENT.md` for operations, backup paths and verification limitations.
 
-GitHub is source control/transfer, not the selected hosting provider. Nothing has
-been pushed or deployed by the current agent. No remote URL is configured here.
+Communicate in Ukrainian. The owner hosts the project on their existing Hetzner
+VPS alongside n8n and OpenClaw. The configuration has been inspected: Caddy serves
+`n8n.rentautoazizbekov.online`; OpenClaw is the root user's
+`openclaw-gateway.service` on loopback ports 18789/18791. Preserve these services.
+
+GitHub is source control/transfer, not the selected hosting provider. The deployment
+was transferred as an archive; nothing has been committed or pushed by this agent.
+The home checkout has origin `https://github.com/Arturoo19/volatility-index.git`.
 Do not start the research or rebuild the UI from scratch.
 
 ## Implemented and checked
@@ -93,29 +102,23 @@ code and UI/status documentation together. Retain deduplication and throttling;
 avoid re-downloading years of history. A one-minute independent intermediate index
 was discussed as an option, not requested or implemented.
 
-## VPS deployment work remaining
+## VPS operations and remaining options
 
-1. Inspect the existing server with the owner's authorized access: OS, free memory,
-   disk, running containers/services, proxy, ports, domain/DNS and backup setup.
-2. Choose Docker Compose alongside existing services if appropriate; systemd is
-   also viable. Dockerfile/Compose/systemd units do not exist yet.
-3. Make bind address/port and a dedicated writable DATA_DIR configurable. Current
-   bind is hard-coded 127.0.0.1:4173; inside a Docker container it must be reachable
-   from the selected proxy network. Do not expose it publicly without the proxy.
-4. Move runtime files to persistent storage, seeded with the tracked market JSON
-   only when absent. Preserve it across rebuilds and backups. Keep minute caches
-   outside the public static directory. Run a single writer/process; there is no
-   cross-process cache lock and horizontal scaling is not supported.
-5. Add automatic restart, health check and bounded logs; integrate with the existing
-   reverse proxy and HTTPS rather than replacing n8n/OpenClaw proxy settings.
-6. Implement agreed faster checks and test upstream access from Hetzner's region.
-   Verify both indices, fallback labels, CSV, themes, restart persistence, and
-   updates while no browser is open. Exercise outage/recovery tests.
-7. Review public API behavior: POST /api/market currently triggers a globally
-   throttled refresh without auth. Apply suitable proxy rate limits; do not make
-   upstream requests proportional to visitors. No administration endpoint is needed.
-8. Document the actual deployed domain, service commands, backup and rollback steps
-   without writing secrets to the repository. Report success only after live checks.
+1. Deployment and initial verification are complete; use `docs/DEPLOYMENT.md` for
+   the exact source directory, service commands, backup and rollback.
+2. HOST/PORT/DATA_DIR retain local defaults; Compose uses its own bridge network
+   and named volume. Run one process only; horizontal scaling is not supported.
+3. Automatic restart, health check, bounded logs and a 512 MB memory limit are
+   configured. Current observed memory use was about 44 MB.
+4. A domain/HTTPS route through existing Caddy is optional future work. The owner
+   selected direct HTTP by IP; no existing proxy or firewall configuration changed.
+5. Faster 60s backend/30s browser polling remains a proposal, not implemented.
+   Current automatic 300s backend operation was verified on the deployed instance.
+6. UI interactions were tested locally earlier. Deployment browser automation
+   failed to initialize; assets/API/CSV were verified over HTTP instead. Bitstamp
+   outage/recovery tests passed, but no live exchange outage was induced.
+7. POST /api/market remains globally deduplicated and throttled to one upstream
+   attempt per minute. Consider request rate limiting if public traffic grows.
 
 ## Remaining product limitations
 

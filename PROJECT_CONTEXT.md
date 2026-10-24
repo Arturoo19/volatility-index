@@ -1,5 +1,22 @@
 # PROJECT_CONTEXT.md
 
+## Current deployment status - 2026-10-10
+
+The website is deployed at http://23.88.99.59:4173/ on the existing Hetzner VPS.
+SSH access from the home laptop works. Source directory:
+`/root/volatility-index.us4VwD`; Compose project `volatility-index`, container
+`volatility-index-web-1`, volume `volatility-index_market-data`.
+Docker build and all 15 Node tests passed on the VPS. Both current BitMEX indices,
+independent calculations, public assets, CSV, five-minute background refresh and
+cache persistence through stop/start were verified. Existing n8n/PostgreSQL/Caddy
+containers and the OpenClaw user service retained their IDs/PID and startup times.
+This is HTTP by IP, with no HTTPS route configured. Refresh remains 300s/60s.
+Backups exist on the VPS and in ignored `site/runtime-data/deployment-backup/`.
+Browser UI automation was unavailable; no new visual interaction verification is
+claimed. The home checkout has a GitHub origin, but deployment edits are not
+committed or pushed. See `docs/DEPLOYMENT.md` for operations and recovery.
+The dated status and original brief below describe earlier stages.
+
 ## CURRENT STATUS — 2026-10-08 (read first)
 
 This project is implemented and locally tested. The original brief below records
