@@ -6,12 +6,12 @@ export function aggregate(rows,frame){
   if(frame==='1W')d.setUTCDate(d.getUTCDate()-((d.getUTCDay()+6)%7));else d.setUTCDate(1);
   const t=d.getTime()/1000;let g=groups.get(t);
   if(!g){g={...r,time:t,count:1};groups.set(t,g);}
-  else{g.high=Math.max(g.high,r.high);g.low=Math.min(g.low,r.low);g.close=r.close;g.partial ||= r.partial;g.bucketEnd=r.bucketEnd;g.count++;}
+  else{g.high=Math.max(g.high,r.high);g.low=Math.min(g.low,r.low);g.close=r.close;g.partial ||= r.partial;g.incomplete ||= r.incomplete;g.bucketEnd=r.bucketEnd;g.count++;}
  }
  for(const g of groups.values()){
   const end=new Date(g.time*1000);if(frame==='1W')end.setUTCDate(end.getUTCDate()+7);else end.setUTCMonth(end.getUTCMonth()+1);
   const observedEnd=Math.min(end.getTime()/1000,rows.at(-1).time+86400);
-  g.incomplete=g.count<(observedEnd-g.time)/86400;
+  g.incomplete=Boolean(g.incomplete)||g.count<(observedEnd-g.time)/86400;
  }
  return [...groups.values()];
 }

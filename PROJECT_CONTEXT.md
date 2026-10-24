@@ -1,3 +1,13 @@
+# Current status — 2026-10-24
+2026-10-24 update: Bitstamp chart deployed at the same public URL. Current source
+is `/root/volatility-index-bitstamp.niOvYb`; previous image retained as
+`volatility-index:before-bitstamp`. Default source is separately labeled Bitstamp,
+with five-minute calculated history since Oct 14 and daily/weekly/monthly charts
+and CSV. Official BitMEX archive remains separate (upstream currently 403).
+New private persistent cache: `bitstamp-history.json`. 17 tests pass locally and
+in Docker. Live data and browser source switching verified; neighboring services
+unchanged. See latest sections of WEBSITE.md and DEPLOYMENT.md for exact behavior,
+backup paths and limitations. Use this source directory for future Compose work.
 # PROJECT_CONTEXT.md
 
 ## Current deployment status - 2026-10-10

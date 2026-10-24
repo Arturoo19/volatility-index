@@ -10,7 +10,7 @@ FROM node:24-bookworm-slim
 WORKDIR /app/site
 ENV HOST=0.0.0.0 PORT=4173 DATA_DIR=/app/runtime-data
 COPY --from=build /app/site/dist/ ./dist/
-COPY --from=build /app/site/package.json /app/site/server.mjs /app/site/server-config.mjs /app/site/market-store.mjs /app/site/live-calculation.mjs /app/site/bitstamp-feed.mjs ./
+COPY --from=build /app/site/package.json /app/site/server.mjs /app/site/server-config.mjs /app/site/market-store.mjs /app/site/live-calculation.mjs /app/site/bitstamp-feed.mjs /app/site/bitstamp-history.mjs ./
 RUN mkdir -p /app/runtime-data && chown node:node /app/runtime-data
 USER node
 EXPOSE 4173

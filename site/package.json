@@ -3,6 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "scripts": {"start": "node server.mjs", "build": "node build.mjs", "check": "node --check dist/app.js && node --check server.mjs && node --check server-config.mjs && node --check bitstamp-feed.mjs", "test": "node --test test-bitstamp-feed.mjs test-chart-data.mjs test-live-calculation.mjs test-live-cache.mjs test-market-store.mjs test-server-config.mjs"},
+  "scripts": {"start": "node server.mjs", "build": "node build.mjs", "check": "node --check dist/app.js && node --check server.mjs && node --check server-config.mjs && node --check bitstamp-feed.mjs && node --check bitstamp-history.mjs", "test": "node --test test-bitstamp-history.mjs test-bitstamp-feed.mjs test-chart-data.mjs test-live-calculation.mjs test-live-cache.mjs test-market-store.mjs test-server-config.mjs"},
   "dependencies": {"lightweight-charts": "5.2.0"}
 }

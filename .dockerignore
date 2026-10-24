@@ -23,4 +23,5 @@ site/dist/data/market.json.tmp
 site/bxbt-live.json*
 site/bitstamp-live.json*
 site/runtime-data
+site/bitstamp-history.json*
 volatility-index-deploy.tar.gz

@@ -190,3 +190,50 @@ docker compose up -d --no-build web
 
 Image rollback does not replace the volume. Restore a saved data backup separately
 with the app stopped if a later change has altered the cache format.
+
+## 2026-10-24 — Bitstamp chart deployment
+
+Current source directory: `/root/volatility-index-bitstamp.niOvYb`.
+Same Compose project, container name, public URL and persistent volume as before.
+Rollback image: `volatility-index:before-bitstamp`. Pre-update cache copies are in
+`/root/volatility-index-bitstamp.niOvYb/backup/`. Previous source directory remains.
+
+The default chart now selects **Bitstamp calculation**. A source selector opens the
+separate official BitMEX archive. No series are spliced. BitMEX requests currently
+return CloudFront 403 from both laptop and VPS; official cache ends 2026-10-14
+01:05 UTC. Bitstamp history begins 2026-10-14 00:00 UTC and is explicitly not an
+official BitMEX index. This change does not establish a cause for the upstream 403.
+
+`site/bitstamp-history.mjs` persists `bitstamp-history.json` in DATA_DIR (otherwise
+site/). It downloads closed minute BTC/USD candle closes, timestamps each at its
+start +60s, and calculates both windows at five-minute UTC boundaries with the
+existing stable sample-standard-deviation formula. Initial warm-up begins seven
+days before the history start. Every required minute must exist; a missing minute
+or failed fetch aborts the update and retains the complete last-good file. No
+interpolation. Repeated refreshes catch up from the last calculated boundary.
+Last 10081 minute prices are retained; full five-minute results remain persisted.
+Daily OHLC uses first/max/min/last calculated observations, unlike BitMEX's
+previous-close open convention. Weekly/monthly aggregation preserves incomplete
+flags. Current UTC day is partial. A stale current day is also marked incomplete.
+
+API: `/api/market` adds `bitstamp` with status, source and per-index candles/latest.
+CSV: `/export.csv?source=bitstamp&symbol=BVOL24H&frame=1D` (also BVOL7D, 1W, 1M).
+Source is included in CSV filenames. Historical validation comparisons remain
+BitMEX-only. Background checks: 300s; visible browser polling: 60s. Bitstamp chart
+refresh runs independently of BitMEX availability and has its own deduplication.
+
+Verified on 2026-10-24: all 17 Node tests pass locally and in VPS Docker build;
+11 daily candles per index from Oct 14–24; no incomplete historical days; latest
+11:35 UTC values equal the separate live Bitstamp calculation exactly at identical
+timestamps; all six source-specific CSV exports return 200. History survived two
+container recreations and startup caught up from 11:30 to 11:35 UTC. Browser checked
+BVOL24H candles, BVOL7D line, and switching to/from the official archive. Container
+healthy. Existing n8n/PostgreSQL/Caddy IDs and OpenClaw PID/start time unchanged.
+Scheduled refresh verified without POST requests: computedAt advanced from 11:36:55 to 11:41:55 UTC; both latest publications advanced from 11:35 to 11:40 UTC with no errors.
+
+Limitations: new chart covers only Oct 14 onwards; full earlier Bitstamp backfill
+is not implemented. Historical candle ranges longer than available coverage show
+only that coverage. This series has not been validated as equal to BitMEX; it uses
+a different source. A missing upstream minute currently stalls catch-up rather than
+silently skipping it. Minute caches and full five-minute history are private runtime
+files; include `bitstamp-history.json` in future backups.

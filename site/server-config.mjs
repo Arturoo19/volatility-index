@@ -15,7 +15,8 @@ export function readServerConfig(env=process.env){
  return {root,host:env.HOST||'127.0.0.1',port:Number(rawPort),dataDir,seed,
   marketFile:dataDir?path.join(dataDir,'market.json'):seed,
   calculationFile:path.join(dataDir||site,'bxbt-live.json'),
-  fallbackFile:path.join(dataDir||site,'bitstamp-live.json')};
+  fallbackFile:path.join(dataDir||site,'bitstamp-live.json'),
+  historyFile:path.join(dataDir||site,'bitstamp-history.json')};
 }
 
 export async function prepareStorage(config){

@@ -20,7 +20,7 @@ test('container settings keep all runtime files outside the static directory',()
  const dir=path.join(os.tmpdir(),'bvol-config-data');
  const config=readServerConfig({HOST:'0.0.0.0',PORT:'8080',DATA_DIR:dir});
  assert.equal(config.host,'0.0.0.0');assert.equal(config.port,8080);
- for(const file of [config.marketFile,config.calculationFile,config.fallbackFile])assert.equal(path.dirname(file),dir);
+ for(const file of [config.marketFile,config.calculationFile,config.fallbackFile,config.historyFile])assert.equal(path.dirname(file),dir);
  assert.throws(()=>readServerConfig({DATA_DIR:config.root}),/outside/);
  assert.throws(()=>readServerConfig({DATA_DIR:path.join(config.root,'data')}),/outside/);
  for(const port of ['','invalid','-1','1.5','65536'])assert.throws(()=>readServerConfig({PORT:port}),/PORT/);
@@ -71,10 +71,19 @@ test('HTTP readiness, private caches and persisted API/CSV survive an offline re
   const file=path.join(dir,'market.json'),saved=JSON.parse(await readFile(file,'utf8'));
   saved.downloadedAt='2026-10-10T00:00:00.000Z';await writeFile(file,JSON.stringify(saved));
   await writeFile(path.join(dir,'bxbt-live.json'),'private cache');
+  const observations={BVOL24H:[[Date.parse('2026-10-14T00:00:00Z'),1.25]],BVOL7D:[[Date.parse('2026-10-14T00:00:00Z'),4.5]]};
+  await writeFile(path.join(dir,'bitstamp-history.json'),JSON.stringify({prices:[],observations,computedAt:'2026-10-14T00:00:00Z'}));
   running=await startServer(dir);
   assert.equal((await (await fetch(running.url+'/api/market')).json()).downloadedAt,saved.downloadedAt);
   assert.equal((await (await fetch(running.url+'/data/market.json')).json()).downloadedAt,saved.downloadedAt);
   assert.equal((await fetch(running.url+'/bxbt-live.json')).status,404);
+  assert.equal((await fetch(running.url+'/bitstamp-history.json')).status,404);
+  const bitstamp=(await (await fetch(running.url+'/api/market')).json()).bitstamp;
+  assert.equal(bitstamp.indices.BVOL24H.latest.price,1.25);
+  const reserveCSV=await fetch(running.url+'/export.csv?source=bitstamp&symbol=BVOL7D&frame=1D');
+  assert.match(reserveCSV.headers.get('content-disposition'),/bitstamp-BVOL7D/);
+  assert.match(await reserveCSV.text(),/4.5,4.5,4.5,4.5/);
+  assert.equal((await fetch(running.url+'/export.csv?source=bitstamp&symbol=BVOL7D&frame=1D&date=2026-09-18')).status,400);
   assert.equal((await fetch(running.url+'/healthz',{method:'POST'})).status,405);
   assert.equal(JSON.parse(await readFile(file,'utf8')).downloadedAt,saved.downloadedAt);
  }finally{if(running)await stopServer(running.child);await rm(dir,{recursive:true,force:true});}
